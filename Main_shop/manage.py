@@ -9,7 +9,7 @@ def main():
     """Run administrative tasks."""
     
     if base.DEBUG:
-      os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Main_shop.settings.local')
+        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Main_shop.settings.local')
     else:
       os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Main_shop.settings.production')
     
