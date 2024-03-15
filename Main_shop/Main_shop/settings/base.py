@@ -38,9 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     # external packages
-    'rest_framework'
+    'rest_framework',
     
     # internal apps
+    'Main_shop.product'
     
 ]
 
