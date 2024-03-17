@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     
     # external packages
     'rest_framework',
+    'mptt',
     
     # internal apps
     'Main_shop.product'
